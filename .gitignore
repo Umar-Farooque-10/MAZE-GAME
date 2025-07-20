@@ -1,0 +1,29 @@
+# Ignore everything
+*
+
+# But not these files (un-ignore)
+!.gitignore
+!README.md
+!main.cpp
+!maze.cpp
+!maze.h
+!solvers.h
+!solvers.cpp
+
+# Ignore build artifacts and OS files
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+*.user
+*.suo
+*.vcxproj*
+*.DS_Store
+Thumbs.db
+
+# Ignore SFML font and resource files
+arial.ttf
+*.png
+*.jpg
